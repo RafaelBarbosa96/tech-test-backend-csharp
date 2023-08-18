@@ -1,0 +1,30 @@
+## API CRUD em CSharp com Repositórios SQL Server e MongoDB
+
+Esta é uma API CRUD em CSharp que contém os métodos GET, POST, PUT e DELETE para os Repositórios SQL Server e MongoDB. Observe que o Repositório em formato de arquivo de texto (txt) não foi desenvolvido devido à falta de tempo e priorização dos demais repositórios.
+
+Os testes unitários relacionados ao MongoDB estão funcionando, porém nem todos os testes foram finalizados.
+
+### Configurações dos Bancos de Dados
+
+#### SQL Server:
+
+1. Instale o SQL Server.
+2. Instale o SQL Server Management Studio para manipulação dos dados.
+3. Crie e habilite um login com as seguintes credenciais:
+   - Nome do banco: DB_Produtos
+   - Usuário: sql
+   - Senha: teste123
+
+A Connection String para o SQL Server é:
+"DataBase": "Server=./;Database=DB_Produtos;User Id=sql;Password=teste123"
+
+
+#### MongoDB:
+
+1. Instale o MongoDB Server, que inclui uma interface para visualização e manipulação dos dados.
+
+A Connection String para o MongoDB é:
+"MongoDbConnection": "mongodb://localhost:27017"
+
+Nome do Banco: ProdutoDB
+Nome da Coleção: Produtos
